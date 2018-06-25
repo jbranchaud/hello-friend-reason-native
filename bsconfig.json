@@ -1,0 +1,21 @@
+{
+  "name": "hello-friend",
+  "version": "0.1.0",
+  "sources": {
+    "dir": "src",
+    "subdirs": true
+  },
+  "entries": [
+    {
+      "backend": "bytecode",
+      "main-module": "Index",
+      "output-name": "hello-friend"
+    },
+    {
+      "backend": "native",
+      "main-module": "Index",
+      "output-name": "hello-friend"
+    }
+  ],
+  "refmt": 3
+}
